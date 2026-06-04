@@ -24,11 +24,11 @@
 Класс должен обязательно содержать методы:
 
 - **setRadius()**
-- **setFerence()**
-- **setArea()**
+- **setFerenc()**
+- **setAre()**
 - **getRadius()**
-- **getFerence()**
-- **getArea()**
+- **getFerenc()**
+- **getAre()**
 
 *Замечание*
 

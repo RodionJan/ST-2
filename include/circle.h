@@ -14,20 +14,20 @@ class Circle {
   static constexpr double PI = 3.1415;
 
  public:
-  explicit Circle(double r);
+  explicit Circle(double x);
 
-  void setRadius(double r);
-  void setFerence(double f);
-  void setArea(double a);
+  void setRadius(double x);
+  void setFerenc(double fer);
+  void setAre(double a);
 
   double getRadius() const;
-  double getFerence() const;
-  double getArea() const;
+  double getFerenc() const;
+  double getAre() const;
 
  private:
-  void updateFromRadius();
-  void updateFromFerence();
-  void updateFromArea();
+  void updateRadius();
+  void updateFerence();
+  void updateArea();
 };
 
 #endif  // INCLUDE_CIRCLE_H_

@@ -4,7 +4,7 @@
 
 #include "circle.h"
 
-double earthEndRope();
-double calculateMaterialPrice();
+double earthRopeEnd();
+double calculateMaterialPr();
 
 #endif  // INCLUDE_TASKS_H_
