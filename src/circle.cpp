@@ -1,3 +1,5 @@
+// Copyright 2024 Student
+
 #include <cstdint>
 #include <cmath>
 #include <stdexcept>

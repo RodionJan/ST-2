@@ -1,3 +1,5 @@
+// Copyright 2024 Student
+
 #include <gtest/gtest.h>
 #include <cstdint>
 #include <cmath>
