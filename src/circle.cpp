@@ -48,16 +48,16 @@ double Circle::getAre() const {
 }
 
 void Circle::updateRadius() {
-  ference = 2 * PI * radius;
+  ference = 2.0 * PI * radius;
   area = PI * radius * radius;
 }
 
 void Circle::updateFerence() {
-  radius = ference / (2 * PI);
+  radius = ference / (PI * 2.0);
   area = PI * radius * radius;
 }
 
 void Circle::updateArea() {
   radius = std::sqrt(area / PI);
-  ference = 2 * PI * radius;
+  ference = 2.0 * PI * radius;
 }
