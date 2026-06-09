@@ -1,4 +1,3 @@
-// Copyright 2022 UNN-CS
 #include <cstdint>
 #include <cmath>
 #include <stdexcept>
